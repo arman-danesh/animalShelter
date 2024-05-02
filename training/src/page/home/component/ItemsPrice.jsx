@@ -11,7 +11,7 @@ export default class ItemsPrice extends React.Component {
             <div className='mx-1'>
                 <label className='d-none' htmlFor="inputNumberOne">Price 1:</label>
                 <input className='rounded-4 bg-dark text-light border border-1 border-light border-opacity-75 shadow w-100 px-2'
-                style={{height:"50px"}}
+                style={{height:"35px"}}
                 id="inputNumberOne"
                 placeholder='$'
                 type="number"
@@ -21,10 +21,10 @@ export default class ItemsPrice extends React.Component {
                - 
             </p>
             <div className='mx-1'>
-                <label className='d-none' htmlFor="inputNumberTwo">Price 2:</label>
+                <label className='d-none' htmlFor="inputNumberOne">Price 1:</label>
                 <input className='rounded-4 bg-dark text-light border border-1 border-light border-opacity-75 shadow w-100 px-2'
-                style={{height:"50px"}}
-                id='inputNumberTwo'
+                style={{height:"35px"}}
+                id="inputNumberOne"
                 placeholder='$'
                 type="number"
                 />
