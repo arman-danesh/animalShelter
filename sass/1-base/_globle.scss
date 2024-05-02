@@ -1,0 +1,101 @@
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+    scroll-behavior: smooth;
+}
+
+
+@media screen and (min-width: $xlg) {
+    .container{
+        width: 100%;
+        max-width: 1400px !important;
+    }
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    --bs-text-opacity: 1;
+    background-color:rgba( var(--bs-dark-rbg),var(--bs-text-opacity));
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: $primary;
+}
+
+main::-webkit-scrollbar-track {
+    border-radius: 1rem;
+    --bs-text-opacity: 1;
+    background-color: rgba(var(--bs-unsetColor-rbg), 0.5) !important;
+}
+
+main::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: $primary;
+}
+
+body {
+    direction: rtl !important;
+    width: 100%;
+    height: 100%;
+    background:$dark!important;
+}
+
+main {
+    flex: 10;
+    @media screen and (max-width: $md) {
+        padding: 0;
+    }
+
+}
+
+header {
+    z-index: 10;
+}
+
+//all links
+.a {
+    cursor: pointer;
+    text-decoration-skip: none;
+}
+
+.text_justify {
+    text-align: justify;
+    text-justify: inter-word;
+    word-spacing: 1px;
+}
+
+.fs_10px {
+    font-size: $fs_10px !important;
+}
+
+.fs_11px {
+    font-size: $fs_11px !important;
+}
+
+.fs_12px {
+    font-size: $fs_12px !important;
+}
+.fs_13px {
+    font-size: $fs_13px !important;
+}
+
+.fs_14px {
+    font-size: $fs_14px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

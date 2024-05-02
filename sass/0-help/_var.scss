@@ -1,0 +1,68 @@
+:root {
+    --bs-unsetColor-rbg:129, 129, 129;
+    --bs-setColor-rbg:48,48,48;
+    --bs-light-rbg:255, 255, 255;
+    --bs-primary-rbg:218, 165, 32;
+    --bs-dark-rbg:21, 21, 21 ;
+    --bs-danger-rbg:237, 28, 36 ;
+
+    /* Neutral color variations */
+    --highcharts-neutral-color-100: #536cb5;
+    --highcharts-neutral-color-80:  #6f83c1;
+    --highcharts-neutral-color-60:  #8a9bcd;
+    --highcharts-neutral-color-40:  #a6b2d9;
+    --highcharts-neutral-color-20:  #c1cae4;
+    --highcharts-neutral-color-10:  #dde1f0;
+    --highcharts-neutral-color-5:   #f8f9fc;
+    --highcharts-neutral-color-3:   #f8f9fc;
+
+    /* Highlight color variations */
+    --highcharts-highlight-color-100:#536cb5;
+    --highcharts-highlight-color-80: #6f83c1;
+    --highcharts-highlight-color-60: #8a9bcd;
+    --highcharts-highlight-color-20: #c1cae4;
+    --highcharts-highlight-color-10: #dde1f0;
+    /*
+        Neutral color variations
+        https://www.highcharts.com/samples/highcharts/css/palette-helper
+    */
+}
+
+
+//color
+$primary: rgb(218, 165, 32, 1);
+$secondary:rgb(61, 61, 61);
+$info:rgb(13, 110, 253 , 1);
+$danger:rgb(237, 28, 36 ,1);
+$dark:rgb(21, 21, 21 ,1);
+$warning:rgb(237, 28, 36,1);
+$light: rgb(255, 255, 255);
+$unsetColor:rgb(129, 129, 129, 1);
+$setColor:rgb(48,48,48,1);
+$success: rgba(34, 139, 34, 1);
+
+$bg_footer_color: rgb(232, 236, 241);
+$green_opacity: rgba(34, 139, 34, 0.5);
+$green_opacity_75: rgba(34, 139, 3, 0.75);
+
+$fs_10px:10px;
+$fs_11px:11px;
+$fs_12px:12px;
+$fs_13px:13px;
+$fs_14px:14px;
+
+$blue: rgb(0, 123, 255) ;
+$xsm:400px ;
+$sm:768px ;
+$md:991px ;
+$lg:1200px ;
+$xlg:1400px ;
+
+//animation speed
+$animation_speed: all 0.5s;
+$scaleX: scaleX(1.05);
+$scaleY: scaleY(1.05);
+$scale: scale(1.05);
+$big__scale: scale(1.5);
+$sm__scale: scale(1.01);
+
