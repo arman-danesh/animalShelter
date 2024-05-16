@@ -23,10 +23,7 @@ export default function App() {
     {
       path: "/",
       element: 
-      
-      <Home/>
-      
-      ,
+      <Home/>,
       errorElement: <ErrorPage />,
       }
   ]);

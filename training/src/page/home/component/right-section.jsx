@@ -19,14 +19,14 @@ export default function RightSection() {
           <div className="w-100 px-2">
             <img
               src={Test}
-              className="card-img rounded-4 mb-3 border border-1 border-dark shadow"
+              className="card-img rounded-4 mb-3 border border-1 border-light border-opacity-50 shadow"
               style={{ objectFit: "cover", height: "50vh" }}
               alt={Test}
             />
           </div>
           <div className="row p-0 mx-0 mb-0 -center">
             {data.map((i) => (
-              <div className="col-12 col-lg-4 p-2">
+              <div id={i.id} className="col-12 col-lg-4 p-2">
                 <Card image={i.image} title={i.title} des={i.description} price={i.price} />
               </div>
             ))}
