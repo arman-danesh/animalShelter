@@ -24,7 +24,7 @@ export default function RightSection() {
               alt={Test}
             />
           </div>
-          <div className="row p-0 mx-0 mb-0 align-items-center">
+          <div className="row p-0 mx-0 mb-0 -center">
             {data.map((i) => (
               <div className="col-12 col-lg-4 p-2">
                 <Card image={i.image} title={i.title} des={i.description} price={i.price} />

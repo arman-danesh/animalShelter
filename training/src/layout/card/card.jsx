@@ -1,7 +1,7 @@
 export default function Card(props){
     return(
     <div className="card bg-dark shadow border border-1 border-dark border-opacity-75 rounded-4 h-100">
-        <img src={props.image} className="card-img-top p-3 rounded-5  border border-1 border-dark border-opacity-75" alt="..."/>
+        <img src={props.image} style={{objectFit:"cover",height:"225px"}} className="card-img-top p-3 rounded-5  border border-1 border-dark border-opacity-75" alt="..."/>
         <div className="card-body">
             <p className="text-light mb-0">
                 {`${props.title.substring(0, 10)}...`}
